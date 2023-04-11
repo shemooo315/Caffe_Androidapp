@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.mainpage">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+
+        android:supportsRtl="true"
+
+
+    android:theme="@style/Theme.MainPage">
+        <activity
+            android:name=".Pizza_menu"
+            android:exported="true" />
+        <activity
+            android:name=".Pasta_menu"
+            android:exported="true" />
+        <activity
+            android:name=".Desserts_menu"
+            android:exported="true" />
+        <activity
+            android:name=".categories"
+            android:exported="true" />
+        <activity
+            android:name=".About_Us"
+            android:exported="true" />
+        <activity
+            android:name=".Hot_CafeePage"
+            android:exported="true" />
+        <activity
+            android:name=".CafeePage"
+            android:exported="true" />
+        <activity
+            android:name=".Register"
+            android:exported="true" />
+        <activity
+            android:name=".Login"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

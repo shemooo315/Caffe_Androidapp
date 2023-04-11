@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Delizioso Cafee</string>
+    <string name="top"> our delicious menu </string>
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+    <string name="login_as_a_guest">Login As A Guest</string>
+    <string name="don_t_have_an_account">Don\'t Have An Account ?</string>
+    <string-array name="Spinner_items">
+        <item>DRINKS</item>
+        <item> Hot Drinks</item>
+        <item> Cold Drinks</item>
+    </string-array>
+
+</resources>
